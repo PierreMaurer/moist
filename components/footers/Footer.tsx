@@ -32,10 +32,10 @@ export const Footer = () => {
                         <p className="text-[#F4CC81] text-sm">NEWSLETTER</p>
                         <div className="font-[Inter] font-medium flex flex-col gap-5">
                             <input type="text" className=" w-[218px] h-[35px] bg-white placeholder:text-[#4F4F4F] placeholder:text-[10px] placeholder:ms-20" placeholder="Entrez votre adresse mail"/>
-                            <p className="text-[8px] w-[217px]">En vous abonnant, vous consentez à recevoir des communications marketing de la part de MOIST via l'adresse e-mail fournie. Le consentement pour recevoir des communications marketing n'est pas requis pour effectuer un achat. Vous pouvez vous désabonner à tout moment en nous contactant ou en utilisant le lien de désinscription.
+                            <p className="text-[8px] w-[217px]">En vous abonnant, vous consentez à recevoir des communications marketing de la part de MOIST via l&apos;adresse e-mail fournie. Le consentement pour recevoir des communications marketing n&apos;est pas requis pour effectuer un achat. Vous pouvez vous désabonner à tout moment en nous contactant ou en utilisant le lien de désinscription.
                                 Consultez notre politique de confidentialité pour plus de détails.</p>
                             <div className="font-medium font-druk border-2 h-[38px] w-[127px] text-center inline-block align-middle">
-                                <p>S'ABONNER</p>
+                                <p>S&#39;ABONNER</p>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ export const Footer = () => {
                     <p>Plan du site</p>
                     <p>Cookies</p>
                     <p>Mentions légales</p>
-                    <p>Conditions d'utilisation</p>
+                    <p>Conditions d&apos;utilisation</p>
                 </div>
             </div>
         </div>

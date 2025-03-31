@@ -1,4 +1,3 @@
-import Image from "next/image";
 import {Hero} from "@/components/sections/Hero";
 import {BohneurSection} from "@/components/sections/BonheurSection";
 import {SolarBurnSection} from "@/components/sections/SolarBurnSection";
