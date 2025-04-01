@@ -8,10 +8,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['DrukTextWide-Medium-Trial', 'sans-serif'],
+        sans: ['var(--font-inter)'],
         druk: ['DrukTextWide-Medium-Trial', 'sans-serif'],
       },
     },
   },
   plugins: [],
-} 
+}
