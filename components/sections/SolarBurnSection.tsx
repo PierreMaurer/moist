@@ -4,7 +4,7 @@ export const SolarBurnSection = () => {
     return (
         <div className="relative h-full w-full overflow-hidden bg-[#F4CC81] flex flex-col">
             <div className="flex flex-col md:flex-row pb-[100px]">
-                <div className="lg:absolute flex flex-col font-druk mt-[130px] ms-10 text-4xl
+                <div className="lg:absolute flex flex-col font-druk mt-[130px] ms-10 text-4xl text-transparent [-webkit-text-stroke:1px_#121316]
                 sm:text-6xl sm:ms-20
                 xl:text-8xl">
                     <p>FAITES</p>

@@ -11,12 +11,12 @@ export const BohneurSection = () => {
                     <p className="text-[#F4CC81]">DES BULLES</p>
                     <p className="text-[#F4CC81]">DE BONHEUR</p>
                 </div>
-                <div className="ms-7 mt-[100px] flex flex-col gap-4 font-druk text-5xl
+                <div className="ms-7 mt-[100px] flex flex-col gap-4 font-druk text-5xl text-transparent [-webkit-text-stroke:1px_#808080]
                 md:text-5xl
                 lg:ms-20 lg:w-[926px] lg:text-8xl">
-                    <p className="">DES SAVEURS</p>
-                    <p className="">UNIQUES</p>
-                    <p className="">SUR TERRE</p>
+                    <p>DES SAVEURS</p>
+                    <p>UNIQUES</p>
+                    <p>SUR TERRE</p>
                 </div>
             </div>
             <div className="flex flex-col gap-8 justify-between mt-5 lg:mt-0 lg:flex-row">
@@ -43,7 +43,7 @@ export const BohneurSection = () => {
                 </div>
             </div>
             <div className="pb-32">
-                <div className="text-4xl ms-5 lg:ms-20 mt-[150px] font-druk
+                <div className="text-4xl ms-5 lg:ms-20 mt-[150px] font-druk text-transparent [-webkit-text-stroke:1px_#808080]
                 md:text-7xl
                 lg:text-8xl">
                     <p>UNE</p>
