@@ -50,7 +50,7 @@ export const Experience = () => {
     }, [])
 
     useFrame(() => {
-        model.scene.rotation.x = scrollRef.current * Math.PI * 1.5
+        model.scene.rotation.x = scrollRef.current * Math.PI * 10
         model.scene.position.y = -scrollRef.current
     })
 
