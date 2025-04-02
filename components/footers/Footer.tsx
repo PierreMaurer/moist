@@ -1,15 +1,15 @@
 export const Footer = () => {
     return (
         <div className="relative h-full w-screen overflow-hidden bg-[#121316] flex flex-col">
-            <div className="ms-20 mt-[100px] flex flex-row justify-between me-20">
+            <div className="ms-20 mt-[100px] flex flex-col gap-10 md:gap-0 md:flex-row justify-between me-20">
                 <div className="flex flex-col gap-10">
                     <p className="text-[#F4CC81] text-sm">A PROPOS DE MOIST</p>
-                    <div className="font-[Inter] w-[340px] flex flex-col gap-2">
+                    <div className="font-[Inter] w-auto lg:w-[340px] flex flex-col gap-2">
                         <p>MOIST est la marque de soda qui va vous désaltérer tout en vous offrant des saveurs uniques au monde. </p>
                         <p>Comme si vous dégustiez un met exquis dans un restaurant luxueux, appréciez la complexité des arômes spéciaux de MOIST, votre future marque préférée.</p>
                     </div>
                 </div>
-                <div className="flex flex-row gap-[60px]">
+                <div className="flex flex-col lg:flex-row gap-[60px]">
                     <div className="flex flex-col gap-10">
                         <p className="text-[#F4CC81] text-sm">MOIST</p>
                         <div className="font-[Inter] font-medium flex flex-col gap-5">
@@ -41,11 +41,11 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="ms-20 me-20 flex flex-row justify-between mt-[287px] pb-10">
+            <div className="ms-20 me-20 flex flex-col lg:flex-row justify-between mt-[287px] pb-10">
                 <div>
                     <p className="font-[Inter] text-[12px]">© MOIST Drinks</p>
                 </div>
-                <div className="flex flex-row font-[Inter] text-[12px] gap-12">
+                <div className="flex flex-col md:flex-row font-[Inter] text-[12px] gap-12">
                     <p>Plan du site</p>
                     <p>Cookies</p>
                     <p>Mentions légales</p>
