@@ -6,12 +6,12 @@ export const BohneurSection = () => {
             <div className="relative w-full flex flex-col md:flex-row">
                 <div className="ms-10 mt-[100px] font-druk text-4xl
                 md:absolute md:ms-[350px] md:top-[50px] md:text-4xl
-                lg:ms-[630px] lg:top-[100px] lg:left-20 lg:z-10 lg:text-4xl
+                lg:ms-[630px] lg:top-[100px] lg:left-20 lg:z-20 lg:text-4xl
                 xl:text-6xl">
                     <p className="text-[#F4CC81]">DES BULLES</p>
                     <p className="text-[#F4CC81]">DE BONHEUR</p>
                 </div>
-                <div className="ms-7 mt-[100px] flex flex-col gap-4 font-druk text-5xl text-transparent [-webkit-text-stroke:1px_#808080]
+                <div className="ms-7 mt-[100px] flex flex-col gap-4 font-druk text-5xl text-transparent [-webkit-text-stroke:1px_#808080] z-10
                 md:text-5xl
                 lg:ms-20 lg:w-[926px] lg:text-8xl">
                     <p>DES SAVEURS</p>

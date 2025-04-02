@@ -32,10 +32,12 @@ export const Experience = () => {
 
     // Calcul du scale en fonction de la largeur de l'écran
     const getScale = () => {
-        if (width < 640) return 0.4 // mobile
-        if (width < 768) return 0.5 // tablet
-        if (width < 1024) return 0.6 // small desktop
-        return 0.8 // large desktop
+        if (width < 640) return {scale:0.4, position:-0.4} // mobile
+        if (width < 768) return {scale:0.5, position: -0.2} // tablet
+        if (width < 1024) return {scale:0.6, position: -0.5}
+        if (width < 1280) return {scale:0.6, position: -0.9}
+        if (width < 1536) return {scale:0.7, position: -1.2} // small desktop
+        return {scale:0.8, position: -1.7} // large desktop
     }
 
     useEffect(() => {
@@ -57,8 +59,8 @@ export const Experience = () => {
             <primitive
                 object={model.scene}
                 rotation={[0, 0, Math.PI * 1.5]}
-                position={[-1.7, 0, 0]}
-                scale={getScale()}
+                position={[getScale().position, 0, 0]}
+                scale={getScale().scale}
             />
         </>
     )
