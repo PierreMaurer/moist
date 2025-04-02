@@ -42,8 +42,8 @@ export const BohneurSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="pb-32">
-                <div className="text-4xl ms-5 lg:ms-20 mt-[150px] font-druk text-transparent [-webkit-text-stroke:1px_#808080]
+            <div className="pb-32 z-50">
+                <div className="text-4xl ms-5 lg:ms-20 mt-[150px] font-druk text-transparent [-webkit-text-stroke:1px_#808080] z-50
                 md:text-7xl
                 lg:text-8xl">
                     <p>UNE</p>

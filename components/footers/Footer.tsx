@@ -1,6 +1,6 @@
 export const Footer = () => {
     return (
-        <div className="relative h-full w-screen overflow-hidden bg-[#121316] flex flex-col">
+        <div className="relative h-full w-screen overflow-hidden bg-[#121316] flex flex-col z-50">
             <div className="ms-20 mt-[100px] flex flex-col gap-10 md:gap-0 md:flex-row justify-between me-20">
                 <div className="flex flex-col gap-10">
                     <p className="text-[#F4CC81] text-sm">A PROPOS DE MOIST</p>

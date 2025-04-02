@@ -35,10 +35,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased`}
       >
         <div className="relative min-h-screen">
-          <Can />
-          <div className="relative z-10">
-            {children}
+          <div className="fixed inset-0 z-0">
+            <Can />
           </div>
+          <main className="relative z-10">
+            {children}
+          </main>
         </div>
       </body>
     </html>

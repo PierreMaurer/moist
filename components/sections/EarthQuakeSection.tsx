@@ -4,7 +4,7 @@ export const HearthQuakeSection = () => {
     return (
         <div className="relative h-full w-screen overflow-hidden bg-[#5D3E2C] flex flex-col">
             <div className="flex flex-col lg:flex-row pb-[100px]">
-                <div className="lg:absolute flex flex-col font-druk mt-[130px] ms-10 text-4xl text-transparent [-webkit-text-stroke:1px_#8D8D8D]
+                <div className="lg:absolute flex flex-col font-druk mt-[130px] ms-10 text-4xl text-transparent [-webkit-text-stroke:1px_#8D8D8D] z-50
                 sm:text-6xl sm:ms-20
                 xl:text-8xl">
                     <p>FAITES</p>
