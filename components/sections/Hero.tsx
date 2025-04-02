@@ -1,4 +1,5 @@
 import {CtaButton} from "@/components/buttons/CtaButton";
+import {Can} from "@/components/threejs/Can";
 
 export const Hero = () => {
     return (
