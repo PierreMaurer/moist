@@ -1,7 +1,7 @@
 import {CtaButton} from "@/components/buttons/CtaButton";
 export const Hero = () => {
     return (
-        <div className="relative h-screen w-screen overflow-hidden bg-white flex flex-col">
+        <div className="relative h-screen w-full overflow-hidden bg-white flex flex-col">
             <div className="flex-1 flex items-center justify-center">
                 <p className="text-6xl lg:text-9xl font-druk text-[#080606] z-40">MOIST</p>
             </div>

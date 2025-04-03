@@ -3,10 +3,11 @@ import Image from "next/image";
 export const SolarBurnSection = () => {
     return (
         <div className="relative h-full w-full overflow-hidden bg-[#F4CC81] flex flex-col">
-            <div className="flex flex-col md:flex-row pb-[100px]">
+            <div className="flex flex-col lg:flex-row pb-[100px]">
                 <div className="lg:absolute flex flex-col font-druk mt-[130px] ms-10 text-4xl text-transparent [-webkit-text-stroke:1px_#121316]
                 sm:text-6xl sm:ms-20
-                xl:text-8xl">
+                xl:text-7xl
+                2xl:text-8xl">
                     <p>FAITES</p>
                     <p>DECOUVRIR</p>
                     <p>LE SOLEIL</p>
@@ -14,9 +15,9 @@ export const SolarBurnSection = () => {
                     <p>PAPILLES</p>
                 </div>
                 <div className="flex flex-col ms-10 me-10
-                lg:ms-[490px] lg:z-10
+                lg:ms-[610px] lg:z-10
                 xl:ms-[750px]
-                2xl:ms-[850px]">
+                2xl:ms-[930px]">
                     <div className="text-[#121316] mt-24 rounded-3xl h-[40px] content-center text-center border-2 border-solid">
                         <p>COLLECTION STELLAR</p>
                     </div>
