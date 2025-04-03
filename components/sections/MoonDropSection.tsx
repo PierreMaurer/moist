@@ -4,7 +4,7 @@ export const MoonDropSection = () => {
     return (
         <div className="relative h-full w-screen overflow-hidden bg-[#9FAAC3] flex flex-col">
             <div className="flex flex-col lg:flex-row pb-[100px]">
-                <div className="lg:absolute flex flex-col font-druk mt-[130px] ms-10 text-4xl text-transparent [-webkit-text-stroke:1px_#121316]
+                <div className="lg:absolute flex flex-col font-druk mt-[140px] ms-10 text-4xl text-transparent [-webkit-text-stroke:1px_#121316]
                 sm:text-6xl sm:ms-20
                 xl:text-8xl">
                     <p>LA LUNE</p>

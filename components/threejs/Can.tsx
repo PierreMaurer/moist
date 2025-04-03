@@ -32,12 +32,12 @@ export const Experience = () => {
 
     // Calcul du scale en fonction de la largeur de l'écran
     const getScale = () => {
-        if (width < 640) return {scale:0.4, position:-0.4} // mobile
-        if (width < 768) return {scale:0.5, position: -0.2} // tablet
-        if (width < 1024) return {scale:0.6, position: -0.5}
-        if (width < 1280) return {scale:0.6, position: -0.9}
-        if (width < 1536) return {scale:0.7, position: -1.2} // small desktop
-        return {scale:0.8, position: -1.7} // large desktop
+        if (width < 640) return {scale:0.4, positionx:-0.4, positiony: 0} // mobile
+        if (width < 768) return {scale:0.5, positionx: -0.2, positiony: 0} // tablet
+        if (width < 1024) return {scale:0.5, positionx: -0.5, positiony: 0}
+        if (width < 1280) return {scale:0.5, positionx: -0.9, positiony: 0.2}
+        if (width < 1536) return {scale:0.6, positionx: -1.2, positiony: 0.35} // small desktop
+        return {scale:0.65, positionx: -1.7, positiony: 0.5} // large desktop
     }
 
     useEffect(() => {
@@ -51,7 +51,7 @@ export const Experience = () => {
 
     useFrame(() => {
         model.scene.rotation.x = scrollRef.current * Math.PI * 10
-        model.scene.position.y = -scrollRef.current
+        model.scene.position.y = -scrollRef.current - getScale().positiony
     })
 
     return (
@@ -59,7 +59,7 @@ export const Experience = () => {
             <primitive
                 object={model.scene}
                 rotation={[0, 0, Math.PI * 1.5]}
-                position={[getScale().position, 0, 0]}
+                position={[getScale().positionx, 1, 0]}
                 scale={getScale().scale}
             />
         </>
@@ -89,7 +89,7 @@ export const Can = () => {
                     <Experience/>
                 </Suspense>
                 <ambientLight intensity={1} />
-                <directionalLight position={[0, 0, 5]} intensity={2} color="white" />
+                <directionalLight position={[-2, 0, 5]} intensity={2} color="white" />
                 <PerspectiveCamera makeDefault position={[0, 0, 5]} />
             </Canvas>
         </div>
