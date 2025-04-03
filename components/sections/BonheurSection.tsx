@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const BohneurSection = () => {
     return (
-        <div className="relative h-full w-full overflow-hidden bg-[#121316] flex flex-col">
+        <div className="relative h-full w-screen overflow-hidden bg-[#121316] flex flex-col">
             <div className="relative w-full flex flex-col md:flex-row">
                 <div className="ms-10 mt-[100px] font-druk text-4xl
                 md:absolute md:ms-[350px] md:top-[50px] md:text-4xl
@@ -11,10 +11,10 @@ export const BohneurSection = () => {
                     <p className="text-[#F4CC81]">DES BULLES</p>
                     <p className="text-[#F4CC81]">DE BONHEUR</p>
                 </div>
-                <div className="ms-7 mt-[100px] flex flex-col gap-4 font-druk text-5xl text-transparent [-webkit-text-stroke:1px_#808080] z-10
+                <div className="ms-7 mt-[100px] flex flex-col gap-4 font-druk text-5xl text-transparent [-webkit-text-stroke:1px_#808080] z-10 [-webkit-text-fill-color:#121316]
                 md:text-5xl
                 lg:ms-20 lg:w-[926px] lg:text-8xl">
-                    <p>DES SAVEURS</p>
+                    <p className="[-webkit-text-fill-color:#121316]">DES SAVEURS</p>
                     <p>UNIQUES</p>
                     <p>SUR TERRE</p>
                 </div>
@@ -43,7 +43,7 @@ export const BohneurSection = () => {
                 </div>
             </div>
             <div className="pb-32 z-50">
-                <div className="text-4xl ms-5 lg:ms-20 mt-[150px] font-druk text-transparent [-webkit-text-stroke:1px_#808080] z-50
+                <div className="text-4xl ms-5 lg:ms-20 mt-[150px] font-druk text-transparent [-webkit-text-stroke:1px_#808080] z-50 [-webkit-text-fill-color:#121316]
                 md:text-7xl
                 lg:text-8xl">
                     <p>UNE</p>

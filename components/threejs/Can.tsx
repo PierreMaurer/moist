@@ -29,8 +29,7 @@ export const Experience = () => {
     const model = useLoader(GLTFLoader, './three/can.glb')
     const scrollRef = useRef(0)
     const { width } = useWindowSize()
-
-    // Calcul du scale en fonction de la largeur de l'écran
+    
     const getScale = () => {
         if (width < 640) return {scale:0.4, positionx:-0.4, positiony: 0} // mobile
         if (width < 768) return {scale:0.5, positionx: -0.2, positiony: 0} // tablet
@@ -56,9 +55,9 @@ export const Experience = () => {
 
     return (
         <>
-            <primitive
-                object={model.scene}
-                rotation={[0, 0, Math.PI * 1.5]}
+            <primitive 
+                object={model.scene} 
+                rotation={[0, 0, Math.PI * 1.5]} 
                 position={[getScale().positionx, 1, 0]}
                 scale={getScale().scale}
             />
@@ -68,30 +67,49 @@ export const Experience = () => {
 
 export const Can = () => {
     return (
-        <div className="w-auto h-full fixed top-0 left-0 pointer-events-auto z-10 ">
-            <Canvas
-                camera={{ position: [0, 0, 5], fov: 75 }}
-                style={{
-                    background: 'transparent',
-                    position: 'fixed',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                }}
-                gl={{
-                    antialias: true,
-                    alpha: true,
-                    preserveDrawingBuffer: true
-                }}
-            >
-                <Suspense fallback={null}>
-                    <Experience/>
-                </Suspense>
-                <ambientLight intensity={1} />
-                <directionalLight position={[-2, 0, 5]} intensity={2} color="white" />
-                <PerspectiveCamera makeDefault position={[0, 0, 5]} />
-            </Canvas>
-        </div>
+        <>
+            <div className="w-auto h-full fixed top-0 left-0 pointer-events-auto z-10">
+                <Canvas
+                    camera={{ position: [0, 0, 5], fov: 75 }}
+                    style={{
+                        background: 'transparent',
+                        position: 'fixed',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '100%'
+                    }}
+                    gl={{
+                        antialias: true,
+                        alpha: true,
+                        preserveDrawingBuffer: true
+                    }}
+                >
+                    <Suspense fallback={null}>
+                        <Experience/>
+                    </Suspense>
+                    <ambientLight intensity={1} />
+                    <directionalLight position={[-2, 0, 5]} intensity={2} color="white" />
+                    <PerspectiveCamera makeDefault position={[0, 0, 5]} />
+                </Canvas>
+            </div>
+            <style jsx global>{`
+                .text-mask {
+                    position: relative;
+                    display: inline-block;
+                }
+                .text-mask::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: white;
+                    mix-blend-mode: screen;
+                    pointer-events: none;
+                }
+            `}</style>
+        </>
     )
 }
