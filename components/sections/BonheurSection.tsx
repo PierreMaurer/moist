@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const BohneurSection = () => {
     return (
-        <div className="relative h-full w-screen overflow-hidden bg-[#121316] flex flex-col">
+        <div className="relative h-full w-full overflow-hidden bg-[#121316] flex flex-col">
             <div className="relative w-full flex flex-col md:flex-row">
                 <div className="ms-10 mt-[100px] font-druk text-4xl
                 md:absolute md:ms-[350px] md:top-[50px] md:text-4xl
