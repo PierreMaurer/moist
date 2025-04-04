@@ -24,8 +24,10 @@ export const MoonDropSection = () => {
                         <p>MOON</p>
                         <p>DROP</p>
                     </div>
-                    <div className="text-[#121316] mt-[50px] rounded-3xl h-[40px] content-center text-center bg-[#F4CC81] w-auto">
-                    <p className="text-[#121316]">PRE-COMMANDER</p>
+                    <div>
+                        <button className="text-[#121316] mt-[50px] rounded-3xl h-[40px] content-center text-center bg-[#F4CC81] w-auto p-2 hover:text-[#F4CC81] hover:border-2 hover:border-solid hover:bg-transparent">
+                          PRE-COMMANDER
+                        </button>
                     </div>
                     <div className="flex-col flex gap-10 mt-20">
                         <div className="w-auto xl:w-[449px] flex flex-col gap-8">

@@ -31,12 +31,13 @@ export const Footer = () => {
                     <div className="flex flex-col gap-10">
                         <p className="text-[#F4CC81] text-sm">NEWSLETTER</p>
                         <div className="font-[Inter] font-medium flex flex-col gap-5">
-                            <input type="text" className=" w-[218px] h-[35px] bg-white placeholder:text-[#4F4F4F] placeholder:text-[10px] placeholder:ms-20" placeholder="Entrez votre adresse mail"/>
+                            <input type="text" className=" w-[218px] h-[35px] bg-white placeholder:text-[#4F4F4F] placeholder:ms-5 placeholder:text-[10px]" placeholder="Entrez votre adresse mail"/>
                             <p className="text-[8px] w-[217px]">En vous abonnant, vous consentez à recevoir des communications marketing de la part de MOIST via l&apos;adresse e-mail fournie. Le consentement pour recevoir des communications marketing n&apos;est pas requis pour effectuer un achat. Vous pouvez vous désabonner à tout moment en nous contactant ou en utilisant le lien de désinscription.
                                 Consultez notre politique de confidentialité pour plus de détails.</p>
-                            <div className="font-medium font-druk border-2 h-[38px] w-[127px] text-center inline-block align-middle">
-                                <p>S&#39;ABONNER</p>
+                            <div className="font-medium font-druk border-2 h-[38px] w-[127px]  content-center text-center">
+                                <p className="m-0">S&#39;ABONNER</p>
                             </div>
+
                         </div>
                     </div>
                 </div>

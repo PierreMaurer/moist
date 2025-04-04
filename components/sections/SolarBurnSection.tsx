@@ -25,8 +25,10 @@ export const SolarBurnSection = () => {
                         <p>SOLAR</p>
                         <p>BURN</p>
                     </div>
-                    <div className="text-[#121316] mt-[50px] rounded-3xl h-[40px] content-center text-center bg-[#121316] w-auto">
-                    <p className="text-[#F4CC81]">PRE-COMMANDER</p>
+                    <div>
+                        <button className="text-[#F4CC81] mt-[50px] rounded-3xl h-[40px] content-center text-center bg-[#121316] w-auto p-2 hover:bg-transparent hover:text-[#121316] hover:border-2 hover:border-solid">
+                            PRE-COMMANDER
+                        </button>
                     </div>
                     <div className="flex-col flex gap-10 mt-20">
                         <div className="w-auto xl:w-[449px] flex flex-col gap-8">

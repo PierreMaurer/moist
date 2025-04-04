@@ -24,8 +24,10 @@ export const HearthQuakeSection = () => {
                         <p>EARTH</p>
                         <p>QUAKE</p>
                     </div>
-                    <div className="text-[#121316] mt-[50px] rounded-3xl h-[40px] content-center text-center bg-[#F4CC81] w-auto">
-                    <p className="text-white">PRE-COMMANDER</p>
+                    <div>
+                        <button className="text-[white] mt-[50px] rounded-3xl h-[40px] content-center text-center bg-[#F4CC81] w-auto p-2 hover:border-2 hover:border-solid hover:bg-transparent hover:text-[#F4CC81]">
+                            PRE-COMMANDER
+                        </button>
                     </div>
                     <div className="flex-col flex gap-10 mt-20">
                         <div className="w-auto xl:w-[449px] flex flex-col gap-8">
