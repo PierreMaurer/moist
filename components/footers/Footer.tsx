@@ -34,10 +34,9 @@ export const Footer = () => {
                             <input type="text" className="w-[218px] h-[35px] bg-white placeholder:text-[#4F4F4F] placeholder:ps-2 placeholder:text-[10px]" placeholder="Entrez votre adresse mail"/>
                             <p className="text-[8px] w-[217px]">En vous abonnant, vous consentez à recevoir des communications marketing de la part de MOIST via l&apos;adresse e-mail fournie. Le consentement pour recevoir des communications marketing n&apos;est pas requis pour effectuer un achat. Vous pouvez vous désabonner à tout moment en nous contactant ou en utilisant le lien de désinscription.
                                 Consultez notre politique de confidentialité pour plus de détails.</p>
-                            <div className="font-medium font-druk border-2 h-[38px] w-[127px]  content-center text-center">
-                                <p className="m-0">S&#39;ABONNER</p>
-                            </div>
-
+                            <button className="font-medium font-druk border-2 h-[38px] w-[127px] content-center text-center hover:bg-[#F4CC81] hover:text-[#121316] transition-colors duration-200 flex items-center justify-center">
+                                S&#39;ABONNER
+                            </button>
                         </div>
                     </div>
                 </div>
