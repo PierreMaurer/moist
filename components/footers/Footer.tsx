@@ -50,7 +50,7 @@ export const Footer = () => {
                     <a href="#" className="hover:text-[#F4CC81] transition-colors duration-200">Plan du site</a>
                     <a href="#" className="hover:text-[#F4CC81] transition-colors duration-200">Cookies</a>
                     <a href="#" className="hover:text-[#F4CC81] transition-colors duration-200">Mentions légales</a>
-                    <a href="#" className="hover:text-[#F4CC81] transition-colors duration-200">Conditions d'utilisation</a>
+                    <a href="#" className="hover:text-[#F4CC81] transition-colors duration-200">Conditions d&apos;utilisation</a>
                 </div>
             </div>
         </div>
