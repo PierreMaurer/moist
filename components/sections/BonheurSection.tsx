@@ -32,13 +32,13 @@ export const BohneurSection = () => {
                 <div className="ms-5 me-5 flex flex-col gap-24 xl:me-[100px] 2xl:me-[252px]">
                     <div className="w-auto lg:w-[449px] flex flex-col gap-8">
                         <p className="text-[16px] text-[#F4CC81] font-medium">DES INGREDIENTS 100% NATURELS</p>
-                        <p className="text-[16px] font-[Inter]">Nous tenons particulièrement à ce que toutes nos boissons soient composés des ingrédients les plus purs possibles.
+                        <p className="text-[16px] text-white font-[Inter]">Nous tenons particulièrement à ce que toutes nos boissons soient composés des ingrédients les plus purs possibles.
                             Pas d’additif, pas d’édulcorant, pas de colorant artificiels,
                             que des saveurs extraites à la pulpe de la terre.</p>
                     </div>
                     <div className="w-auto lg:w-[449px] flex flex-col gap-8">
                         <p className="text-[16px] text-[#F4CC81] font-medium">MADE IN FRANCE. C’EST TOUT.</p>
-                        <p className="text-[16px] font-[Inter]">De nos fournisseurs à nos usines, nous choisissons précautionneusement nos partenaires en France pour une confection qui ne dépasse jamais nos frontières.</p>
+                        <p className="text-[16px] text-white font-[Inter]">De nos fournisseurs à nos usines, nous choisissons précautionneusement nos partenaires en France pour une confection qui ne dépasse jamais nos frontières.</p>
                     </div>
                 </div>
             </div>
